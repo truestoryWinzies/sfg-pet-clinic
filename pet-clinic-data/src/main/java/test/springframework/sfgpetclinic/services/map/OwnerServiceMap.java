@@ -1,10 +1,12 @@
 package test.springframework.sfgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import test.springframework.sfgpetclinic.model.Owner;
 import test.springframework.sfgpetclinic.services.OwnerService;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {
@@ -18,7 +20,7 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
 
     @Override
     public Owner save(Owner object) {
-        return super.save(object.getId(), object);
+        return super.save(object);
     }
 
     @Override

@@ -1,10 +1,12 @@
 package test.springframework.sfgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import test.springframework.sfgpetclinic.model.Pet;
 import test.springframework.sfgpetclinic.services.PetService;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
@@ -18,7 +20,7 @@ public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetS
 
     @Override
     public Pet save(Pet object) {
-        return super.save(object.getId(), object);
+        return super.save(object);
     }
 
     @Override
