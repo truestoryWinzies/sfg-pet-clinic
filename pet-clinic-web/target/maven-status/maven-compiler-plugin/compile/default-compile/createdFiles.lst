@@ -1,5 +1,5 @@
-test\springframework\sfgpetclinic\SfgPetClinicApplication.class
-test\springframework\sfgpetclinic\controllers\indexController.class
-test\springframework\sfgpetclinic\controllers\VetController.class
-test\springframework\sfgpetclinic\bootstrap\DataLoader.class
-test\springframework\sfgpetclinic\controllers\OwnerController.class
+test/springframework/sfgpetclinic/bootstrap/DataLoader.class
+test/springframework/sfgpetclinic/SfgPetClinicApplication.class
+test/springframework/sfgpetclinic/controllers/VetController.class
+test/springframework/sfgpetclinic/controllers/indexController.class
+test/springframework/sfgpetclinic/controllers/OwnerController.class
