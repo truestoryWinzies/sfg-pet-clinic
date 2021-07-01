@@ -1,5 +1,6 @@
 package test.springframework.sfgpetclinic.model;
 
+/** yo yo yo **/
 public class Speciality extends BaseEntity {
 
     private String description;
